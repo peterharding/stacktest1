@@ -21,6 +21,11 @@ yarn add babel-loader babel-core
 yarn add typescript
 yarn add ts-loader
 yarn add source-map-loader
+yarn add jest
+yarn add babel-jest babel-polyfill
+yarn add babel-preset-es2015
+yarn add babel-preset-react
+yarn add enzyme react-addons-test-utils
 
 tsd init
 tsd install react --save
