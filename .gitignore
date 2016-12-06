@@ -1,4 +1,6 @@
 node_modules
 .nvmrc
 yarn.lock
-dist
+dist/*
+dist/client.min.js
+.DS_Store

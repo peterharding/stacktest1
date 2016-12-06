@@ -4,9 +4,15 @@
     "sourceMap": true,
     "noImplicitAny": true,
     "module": "commonjs",
+    "moduleResolution": "node",
     "target": "es5",
     "jsx": "react"
   },
+  "exclude": [
+    "node_modules",
+    "typings/main",
+    "typings/main.d.ts"
+  ],
   "files": [
     "./src/components/Hello.tsx",
     "./src/index.tsx"

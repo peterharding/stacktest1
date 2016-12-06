@@ -6,7 +6,8 @@ nvm use to switch to that version
 npm install -g yarn
 npm install -g webpack
 npm install -g webpack-dev-server
-npm install -g typescript tsd
+npm install -g typescript
+npm install -g tsd
 
 make package.json
 make .gitignore
@@ -27,6 +28,7 @@ yarn add babel-preset-es2015
 yarn add babel-preset-react
 yarn add enzyme
 yarn add react-addons-test-utils
+yarn add react-router
 
 tsd init
 tsd install react --save
