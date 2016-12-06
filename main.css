@@ -1,0 +1,28 @@
+.display-ib {
+  display: inline-block;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.one-half {
+  width: 50%;
+}
+
+.one-quarter {
+  width: 25%;
+}
+
+.one-tenth {
+  width: 10%;
+}
+
+.border-black {
+  border: 2px solid black;
+}
+
+.soft {
+  padding: 1rem;
+}
+

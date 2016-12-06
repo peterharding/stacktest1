@@ -2,7 +2,7 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import * as TestUtils from 'react-addons-test-utils';
 
-const CheckboxWithLabel = require('../src/components/CheckboxWithLabel');
+const CheckboxWithLabel = require('./CheckboxWithLabel');
 
 it('CheckboxWithLabel changes the text after click', () => {
   // Render a checkbox with label in the document

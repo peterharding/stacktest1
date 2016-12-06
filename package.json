@@ -37,7 +37,7 @@
     "transform": {
       "^.+\\.(ts|tsx)$": "<rootDir>/preprocessor.js"
     },
-    "testRegex": "/tests/.*\\.(ts|tsx|js)$"
+    "testRegex": "/test_examples/.*\\.spec.(ts|tsx|js)$"
   },
   "license": "MIT",
   "scripts": {
