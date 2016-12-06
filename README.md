@@ -15,8 +15,8 @@ make webpack.config.js
 
 yarn init
 yarn add webpack
-yarn add react
-yarn add react-dom
+yarn add react @types/react
+yarn add react-dom @types/react-dom
 yarn add webpack-dev-server
 yarn add babel-loader babel-core
 yarn add typescript
@@ -28,11 +28,10 @@ yarn add babel-preset-es2015
 yarn add babel-preset-react
 yarn add enzyme
 yarn add react-addons-test-utils
-yarn add react-router
+yarn add react-router @types/react-router
 
 tsd init
 tsd install react --save
-npm install --save react react-dom @types/react @types/react-dom
 
 webpack
 webpack-dev-server
