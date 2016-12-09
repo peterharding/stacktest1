@@ -26,3 +26,7 @@
   padding: 1rem;
 }
 
+.active-nav > button {
+  background-color: blue;
+}
+

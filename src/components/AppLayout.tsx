@@ -2,6 +2,7 @@ import * as React from "react";
 
 import { Router, Route, hashHistory } from "react-router";
 import { Resource } from "./Resource";
+import { HomeLink } from "./HomeLink";
 
 export class AppLayout extends React.Component<any, any> {
   render() {
@@ -11,7 +12,7 @@ export class AppLayout extends React.Component<any, any> {
           <div id="menu" className="one-tenth">menu</div>
           <div id="nav">
             <div id="resources" className="display-flex">
-              <Resource name="Home" path="/"></Resource>
+              <HomeLink name="Home" path="/"></HomeLink>
               <Resource name="Teacher" path="teacher"></Resource>
               <Resource name="Classroom" path="classroom"></Resource>
             </div>
