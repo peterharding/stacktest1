@@ -1,5 +1,8 @@
 import * as React from "react";
 
+import { Router, Route, hashHistory } from "react-router";
+import { Resource } from "./Resource";
+
 export class AppLayout extends React.Component<any, any> {
   render() {
     return (
@@ -8,8 +11,9 @@ export class AppLayout extends React.Component<any, any> {
           <div id="menu" className="one-tenth">menu</div>
           <div id="nav">
             <div id="resources" className="display-flex">
-              <div>Teacher</div>
-              <div>Classroom</div>
+              <Resource name="Home" path="/"></Resource>
+              <Resource name="Teacher" path="teacher"></Resource>
+              <Resource name="Classroom" path="classroom"></Resource>
             </div>
             <div id="search">search</div>
           </div>
@@ -17,7 +21,9 @@ export class AppLayout extends React.Component<any, any> {
 
         <div className="display-flex">
           <div id="actions" className="one-tenth">actions</div>
-          <div id="main">main</div>
+          <div id="main">
+            {this.props.children}
+          </div>
         </div>
       </div>
     );

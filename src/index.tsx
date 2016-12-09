@@ -2,12 +2,18 @@ import * as React from "react";
 import * as ReactDOM from "react-dom";
 import { Router, Route, IndexRoute, hashHistory } from "react-router";
 
-import { Hello } from "./components/Hello";
 import { AppLayout } from "./components/AppLayout";
+import { Teacher } from "./components/resources/Teacher";
+import { Classroom } from "./components/resources/Classroom";
+import { EmptyView } from "./components/resources/EmptyView";
 
 ReactDOM.render(
   <Router history={hashHistory}>
-    <Route path="/" component={AppLayout}></Route>
+    <Route path="/" component={AppLayout}>
+      <IndexRoute component={EmptyView}/>
+      <Route path="/teacher" component={Teacher}/>
+      <Route path="/classroom" component={Classroom}/>
+    </Route>
   </Router>,
   document.getElementById("app")
 );
