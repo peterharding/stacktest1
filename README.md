@@ -29,6 +29,7 @@ yarn add babel-preset-react
 yarn add enzyme
 yarn add react-addons-test-utils
 yarn add react-router @types/react-router
+yarn add lodash @types/lodash
 
 tsd init
 tsd install react --save

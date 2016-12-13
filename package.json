@@ -8,6 +8,7 @@
     ]
   },
   "dependencies": {
+    "@types/lodash": "^4.14.43",
     "@types/react": "^0.14.52",
     "@types/react-dom": "^0.14.19",
     "@types/react-router": "^2.0.41",
@@ -18,6 +19,7 @@
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-react": "^6.16.0",
     "jest": "^17.0.3",
+    "lodash": "^4.17.2",
     "react": "^15.4.1",
     "react-addons-test-utils": "^15.4.1",
     "react-dom": "^15.4.1",
